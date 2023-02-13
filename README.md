@@ -13,7 +13,6 @@ The dataset used for this task is called the KDD Cup 99 dataset of the SF subset
 | dst_bytes    | Float   |
 
 ## <ins> Preprocessing and Machine Learning training </in>
-### Initialization of the data ###
 With the way SageMaker works, 2 separate notebooks were created:
 1. **init.ipynb**, which is responsible for the initial setting up of the infrastructure for both the AI model as well as the SageMaker session, 
 2. **trainingScript.py**, which is the script responsible for the actual preprocessing, training, testing and inference scoring of the AI model.
